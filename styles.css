@@ -1,0 +1,564 @@
+
+body{
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+    color: white;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+form{
+    color: white;
+}
+
+hr{
+    border-top: 3px solid rgb(186, 186, 186);
+    width: 85rem;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.top{
+    position: fixed;
+    top:0; 
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.0));
+}
+
+.downloadapp{
+    width: 0.9rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+.firstdiv{
+    background-image: url(zomato.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.logomain{
+    width:25%;
+    padding: 0;
+    margin: 0%;
+    display: block;
+}
+
+.textfirstdiv{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+
+.formdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.formmain{
+    width: 50rem;
+    height: 4rem;
+    border: 0px;
+    padding: 0%;
+    margin: 0%;
+    font-size: x-large;
+    border: 0px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.formmain:focus{
+    outline: none;
+}
+
+.division{
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207,207,207);
+    box-sizing: inherit;
+}
+
+.btn{
+    height: 4rem;
+    width: 10rem;
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+    font-size: larger;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+}
+
+
+
+.seconddiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    padding-bottom: 5rem;
+}
+
+.secimg{
+    width: 25rem;
+    margin: 0%;
+    border-radius: 20px 20px 0px 0px;
+    animation: fadeinAnimation ease 5s; animation-iteration-count:1 ; animation-fill-mode: forwards;
+}
+
+@keyframes fadeinAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.seconddivimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    margin: 3rem 1rem 1rem 0rem;
+    transition: 1s;
+}
+
+.seconddivimg:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+
+
+.thirddiv{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+
+.thirddivtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.thirddivimgmain{
+    display: flex;
+}
+
+.collections{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.collectionssub{
+    padding: 0;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.8rem;
+    color: gray;
+}
+
+.thirddivimga{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(a.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:25rem;
+    height: 30rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+}
+
+.thirddivimga:hover{
+    cursor: pointer;
+}
+
+.thirddivimgb{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(b.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:25rem;
+    height: 30rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+}
+
+.thirddivimgb:hover{
+    cursor: pointer;
+}
+
+.thirddivimgc{
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(c.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:25rem;
+    height: 30rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+}
+
+.thirddivimgc:hover{
+    cursor: pointer;
+}
+
+.thirddivimgd{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),url(d.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:25rem;
+    height: 30rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    margin: 0rem 1rem 1rem 0rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+}
+
+.thirddivimgd:hover{
+    cursor: pointer;
+}
+
+.inimga{
+    margin:0;
+    padding-top:0;
+    padding-bottom:0rem;
+    padding-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.inimgb{
+    margin:0;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.collectioncontainer{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.collectionssubend{
+    padding: 0 1rem 0 0;
+    display: inline-block;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.5rem;
+    color: rgb(185, 90, 90);
+}
+
+.collectionssubend:hover{
+    cursor: pointer;
+}
+
+.trianglenext{
+    width:0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 16px solid red;
+    border-bottom: 10px solid transparent;
+    margin-bottom: 3rem;
+    margin-top: 0;
+    padding: 0 1.8rem 0 0;
+}
+
+
+
+.forthdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem 4rem 0rem;
+}
+
+.forthdivtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.headingf{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:4rem;
+    padding: 0;
+    margin: 0 0 3rem 0;
+}
+
+.subfhead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:4rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.griddiv{
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+    height: 7rem;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 20px;
+    border:2px solid rgb(221, 221, 221);
+    justify-content: center;
+    transition: box-shadow .3s;
+}
+
+.griddiv:hover{
+    cursor: pointer;
+    background-color: #FFFEFC;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.locationgrid{
+    margin:0 0 0 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+
+.placesgrid{
+    margin:0.5rem 0 0 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.seemore{
+    width:0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 12px solid grey;
+    border-bottom: 7px solid transparent;
+    margin-bottom: 3rem;
+    margin: 0 2rem 0 0;
+    padding: 0;
+}
+
+.seemorediv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fifthdiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 4rem 0rem 4rem 0rem;
+    padding-top: 4rem;
+    background-color: rgb(255, 251, 246);
+}
+
+.phoneimg{
+    width: 25rem;
+}
+
+.linkapp{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 4rem;
+}
+
+.storedownload{
+    width: 12rem;
+    border-radius: 10px;
+    margin: 1rem 2rem 2rem 0rem;
+}
+
+.GettheZomatoApp{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    padding: 0;
+    margin: 0%;
+}
+
+.GetAppsub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(103, 103, 103);
+}
+
+.coninp{
+    width: 30rem;
+    height: 3rem;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 1rem 0rem 1rem 0rem;
+    border-radius: 8px;
+    padding: 0.1rem 0.1rem 0.1rem 1.5rem;
+    border-color: rgb(224, 224, 224);
+    outline-color: rgb(224, 224, 224);
+}
+
+
+.coninp:focus{
+    outline-color: rgb(224, 224, 224);
+}
+
+.applink{
+    width:10rem;
+    height: 3rem;
+    background-color: rgb(227, 105, 105);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border:none;
+    border-radius: 10px;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.applink:hover{
+    cursor: pointer;
+}
+
+.downloadappfrom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: rgb(166, 165, 165);
+    margin: 1.5rem 0rem 0.3rem 0rem;
+}
+
+.storedownload:hover{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.finallogo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 192.5rem;
+}
+
+.zomatoblacklogo{
+    width: 12rem;
+}
+
+.ftbtn{
+    width:8rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    border-color: rgb(194, 194, 194);
+    background-color: white;
+    margin: 0 1rem 0 0;
+}
+
+.ftbtn:hover{
+    cursor: pointer;
+}
+
+.footergrid{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+.fghead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.fgsub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.fgsub:hover{
+    cursor: pointer;
+}
+
+.smlogo{
+    width:1.8rem;
+    margin: 0 0.4rem 0.5rem 0;
+}
