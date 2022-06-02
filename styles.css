@@ -138,7 +138,7 @@ a:hover{
     width: 25rem;
     margin: 0%;
     border-radius: 20px 20px 0px 0px;
-    animation: fadeinAnimation ease 5s; animation-iteration-count:1 ; animation-fill-mode: forwards;
+    animation: fadeinAnimation ease 3s; animation-iteration-count:1 ; animation-fill-mode: forwards;
 }
 
 @keyframes fadeinAnimation{
